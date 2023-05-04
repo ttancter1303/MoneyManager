@@ -4,19 +4,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/red"
     tools:context=".view.menu.MenuFragment">
 <!-- income fragment   -->
-    <LinearLayout
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView"
+        android:name="com.example.savemoney.view.menu.IncomeFragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-    </LinearLayout>
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_income" />
 <!--  bottle money fragment item  -->
-    <GridLayout
+    <TableLayout
+        android:id="@+id/tab_layout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"/>
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    </GridLayout>
-
-
+    </androidx.viewpager2.widget.ViewPager2>
 </LinearLayout>
