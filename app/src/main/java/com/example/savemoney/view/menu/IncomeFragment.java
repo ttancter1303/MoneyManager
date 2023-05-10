@@ -34,7 +34,8 @@ public class IncomeFragment extends Fragment {
         // Inflate the layout for this fragment
         controller = Navigation.findNavController(requireActivity(),R.id.nav_host_fragment_container);
         binding = FragmentIncomeBinding.inflate(inflater,container,false);
-        return binding.getRoot();    }
+        return binding.getRoot();
+    }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
