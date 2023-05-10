@@ -15,4 +15,9 @@
         android:name="com.example.savemoney.view.viewpager.itemclick.HistoryIOFragment"
         android:label="fragment_history_i_o"
         tools:layout="@layout/fragment_history_i_o" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.savemoney.view.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
 </navigation>

@@ -37,6 +37,6 @@ public class BottleMoneyFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        controller = Navigation.findNavController(requireActivity(),R.id.nav_host_fragment_container);
+        controller = Navigation.findNavController(requireActivity(),R.id.fragmentHostContainerView);
     }
 }

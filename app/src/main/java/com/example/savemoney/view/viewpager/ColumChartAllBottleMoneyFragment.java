@@ -41,11 +41,11 @@ public class ColumChartAllBottleMoneyFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        barChart = binding.barChart;
-        BarDataSet barDataSet = new BarDataSet(barArrayList,"Test chart");
-        BarData barData = new BarData(barDataSet);
-        barChart.setData(barData);
-        barDataSet.setColors(ColorTemplate.LIBERTY_COLORS);
+//        barChart = binding.barChart;
+//        BarDataSet barDataSet = new BarDataSet(barArrayList,"Test chart");
+//        BarData barData = new BarData(barDataSet);
+//        barChart.setData(barData);
+//        barDataSet.setColors(ColorTemplate.LIBERTY_COLORS);
 
     }
 }
