@@ -13,15 +13,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:layout="@layout/fragment_income" />
-<!--  bottle money fragment item  -->
-    <TableLayout
-        android:id="@+id/tab_layout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-    <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/view_pager2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
-    </androidx.viewpager2.widget.ViewPager2>
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView2"
+        android:name="com.example.savemoney.view.viewpager.BottleMoneyFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_bottle_money"
+        android:layout_gravity="center"/>
+    <!--  bottle money fragment item  -->
 </LinearLayout>
